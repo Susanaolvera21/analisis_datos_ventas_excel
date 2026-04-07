@@ -1,28 +1,29 @@
-# analisis_datos_ventas_excel
-Análisis de Ventas e Identificación de Crecimiento por Área y Producto 
 
-1. Contexto del Proyecto
-Este fue el primer entregable del curso de Análisis de Datos de EBAC, enfocado en transformar datos de ventas brutos en insights accionables para una empresa aliada2.
-•	Objetivo Principal: Realizar un análisis de ventas detallado, calcular métricas de rendimiento y evaluar el crecimiento mensual y la distribución del mercado por región.
-•	Habilidad Central: Modelado de datos de hechos (FACT) y dimensiones (DIM) y uso avanzado de Tablas Dinámicas en Excel para el cálculo de KPIs complejos (Tasa de Crecimiento, Participación de Mercado).
-•	Total de Ventas Analizadas: $11,042,859.89.
-•	Promedio de Ventas por Unidad: $28.19.
+## 🎯 Contexto y Problema de Negocio
+Una empresa del sector consumo masivo presentaba dificultades para identificar sus motores de crecimiento y dependencias regionales. Con un volumen de ventas de **$11.04M**, el negocio necesitaba entender la volatilidad de sus ingresos y la concentración de su mercado para optimizar la cadena de suministro.
 
-2. Análisis y Resultados Clave
-A. Rendimiento de Ventas Regional (Participación de Mercado)
-El análisis por región reveló una alta dependencia de un solo punto de venta7.
-•	La región TOTAL AUTOS SCANNING MEXICO domina el mercado, contribuyendo con el 50.00% de las ventas totales.
-•	Las siguientes regiones con mayor contribución son TOTAL AUTOS AREA 2 (10.77%) y TOTAL AUTOS AREA 5 (10.44%).
-•	Se observa que las demás áreas tienen una baja contribución, siendo TOTAL AUTOS AREA 4 (6.13%) y TOTAL AUTOS AREA 1 (6.47%) las de menor participación.
-B. Tasa de Crecimiento y Estacionalidad
-La tasa de crecimiento de ventas mostró una alta volatilidad mensual11.
-•	Picos de Crecimiento: Se identificaron picos significativos en Abril 2022 (+415.31%) y Abril 2023 (+395.39%).
-•	Fuertes Caídas: Se registraron caídas drásticas, especialmente en Febrero 2023 (-44.83%) y Agosto 2023 (-79.59%).
-•	Patrón Cíclico: Existe un patrón cíclico con incrementos observados consistentemente en los meses de abril-mayo y septiembre-octubre, y baja actividad en enero y febrero14.
+## 🛠️ Metodología Técnica (Excel)
+Para este análisis, transformé datos brutos en un modelo de estrella funcional:
+* **Modelado de Datos:** Estructuración de tablas de hechos (FACT_SALES) y dimensiones (DIM_PRODUCT, DIM_REGION, DIM_CALENDAR).
+* **Análisis de KPIs:** Creación de campos calculados en Tablas Dinámicas para medir la **Tasa de Crecimiento Mensual** y **Participación de Mercado (%)**.
+* **Tratamiento de Datos:** Limpieza de registros duplicados y normalización de categorías.
 
-3. Recomendaciones Estratégicas (Conclusiones)
-Basado en el análisis de datos, se emitieron las siguientes recomendaciones a la empresa:
-1.	Investigar Causas de Outliers: Analizar las razones detrás de los picos de ventas en abril y mayo y las caídas en febrero y agosto para capitalizar las estrategias exitosas y mitigar los factores negativos.
-2.	Reducir la Dependencia Regional: Implementar estrategias para fortalecer y aumentar la participación de mercado de las regiones menos contribuyentes, reduciendo la alta dependencia del área SCANNING.
-3.	Análisis Estacional Formal: Realizar un análisis de estacionalidad más profundo para prever tendencias y mejorar la precisión en la planificación del inventario y la estrategia de ventas.
+---
+
+## 💡 Hallazgos Críticos e Insights
+* **Dependencia de Riesgo:** El **50% de los ingresos** dependen de una sola región (TOTAL AUTOS SCANNING MÉXICO), lo que representa un riesgo operativo alto ante cualquier contingencia local.
+* **Volatilidad Extrema:** Identifiqué picos de crecimiento atípicos en abril (+415%) seguidos de caídas drásticas en agosto (-79%), sugiriendo una estacionalidad agresiva o impacto de promociones no coordinadas.
+
+---
+
+## 🚀 Recomendaciones Estratégicas (Conclusiones)
+1. **Diversificación Regional:** Urge implementar un plan de expansión en las Áreas 1 y 4 (las de menor participación) para equilibrar la balanza comercial.
+2. **Auditoría de Outliers:** Investigar las causas raíz de los picos de abril para estandarizar las "mejores prácticas" en el resto de los meses.
+3. **Sincronización de Inventarios:** Ajustar los niveles de stock anticipando las caídas cíclicas de enero y febrero para evitar costos de almacenamiento innecesarios.
+
+---
+
+
+---
+**Susana Olvera Moreno, Ph.D.**
 
