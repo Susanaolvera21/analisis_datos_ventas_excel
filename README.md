@@ -1,29 +1,31 @@
 
-## 🎯 Contexto y Problema de Negocio
-Una empresa del sector consumo masivo presentaba dificultades para identificar sus motores de crecimiento y dependencias regionales. Con un volumen de ventas de **$11.04M**, el negocio necesitaba entender la volatilidad de sus ingresos y la concentración de su mercado para optimizar la cadena de suministro.
+# 📈 Inteligencia Comercial y Estrategia de Crecimiento (Análisis en Excel)
 
-## 🛠️ Metodología Técnica (Excel)
-Para este análisis, transformé datos brutos en un modelo de estrella funcional:
-* **Modelado de Datos:** Estructuración de tablas de hechos (FACT_SALES) y dimensiones (DIM_PRODUCT, DIM_REGION, DIM_CALENDAR).
-* **Análisis de KPIs:** Creación de campos calculados en Tablas Dinámicas para medir la **Tasa de Crecimiento Mensual** y **Participación de Mercado (%)**.
-* **Tratamiento de Datos:** Limpieza de registros duplicados y normalización de categorías.
+## 🎯 Contexto de Negocio (El Problema)
+La organización presentaba una **incertidumbre operativa** debido a que sus reportes de ventas no permitían identificar la rentabilidad real ni las dependencias geográficas. Con una facturación analizada de **$11.04M**, el negocio carecía de una base sólida para:
+* **Prever la estacionalidad:** Entender por qué las ventas caían drásticamente en ciertos meses.
+* **Evaluar el Riesgo Regional:** Identificar si la empresa era vulnerable a la concentración de mercado en una sola zona.
+* **Optimizar el Inventario:** Basar las compras en tendencias reales y no en suposiciones.
 
 ---
 
-## 💡 Hallazgos Críticos e Insights
-* **Dependencia de Riesgo:** El **50% de los ingresos** dependen de una sola región (TOTAL AUTOS SCANNING MÉXICO), lo que representa un riesgo operativo alto ante cualquier contingencia local.
-* **Volatilidad Extrema:** Identifiqué picos de crecimiento atípicos en abril (+415%) seguidos de caídas drásticas en agosto (-79%), sugiriendo una estacionalidad agresiva o impacto de promociones no coordinadas.
+## 🛠️ Metodología y Habilidades Técnicas
+Para transformar datos brutos en insights estratégicos, utilicé un enfoque de **Business Intelligence**:
+* **Modelado de Datos Relacional:** Estructuración de tablas bajo el esquema **FACT-DIM** (Hechos y Dimensiones) para asegurar la integridad de la información.
+* **Ingeniería de KPIs:** Creación de medidas personalizadas para calcular la **Tasa de Crecimiento Mensual**, **Participación de Mercado (%)** y **Ticket Promedio**.
+* **Análisis de Series de Tiempo:** Evaluación de la volatilidad histórica mediante tablas dinámicas avanzadas.
+
+---
+
+## 💡 Hallazgos Críticos (Contexto de Decisión)
+1. **Dependencia Crítica del 50%:** Se detectó que la región *TOTAL AUTOS SCANNING MÉXICO* genera la mitad de los ingresos totales. **Decisión requerida:** Urge un plan de expansión en zonas subexplotadas (como Área 1 y 4) para mitigar el riesgo de centralización.
+2. **Volatilidad Inusual en Abril:** Identifiqué picos de crecimiento de **+415%** en abril, contrastando con caídas del **-79%** en agosto. **Decisión requerida:** Sincronizar las campañas de marketing con estos ciclos probados para maximizar el retorno de inversión.
+3. **Eficiencia de SKU:** El promedio de venta por unidad es de **$28.19**, detectando productos de bajo volumen pero alta rentabilidad.
 
 ---
 
 ## 🚀 Recomendaciones Estratégicas (Conclusiones)
-1. **Diversificación Regional:** Urge implementar un plan de expansión en las Áreas 1 y 4 (las de menor participación) para equilibrar la balanza comercial.
-2. **Auditoría de Outliers:** Investigar las causas raíz de los picos de abril para estandarizar las "mejores prácticas" en el resto de los meses.
-3. **Sincronización de Inventarios:** Ajustar los niveles de stock anticipando las caídas cíclicas de enero y febrero para evitar costos de almacenamiento innecesarios.
-
----
-
-
----
-**Susana Olvera Moreno, Ph.D.**
-
+Basado en el análisis estadístico, se emitieron las siguientes directrices para la dirección:
+* **Diversificación Regional:** Establecer metas agresivas de crecimiento para las regiones con participación menor al 7% para equilibrar la cartera.
+* **Auditoría de Procesos:** Investigar los factores de éxito de los meses pico (abril/mayo) para replicarlos en los meses de baja actividad (enero/febrero).
+* **Gestión de Stock Predictiva:** Ajustar los niveles de inventario basándose en el patrón cíclico detectado, evitando el costo de almacenamiento innecesario en periodos de baja demanda.
